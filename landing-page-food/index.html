@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/geral.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing Page Food</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#testimonials">Avaliações</a></li>
+            </ul>
+            <button class="btn-default">Peça aqui</button>
+            <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#testimonials">Avaliações</a></li>
+            </ul>
+            <button class="btn-default">Peça aqui</button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">Sabores sem <span>fronteiras</span></h1>
+                <p id="descrption">Delícias ao seu alcance</p>
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">Ver cardápio</a>
+                    <a href="tel:+54999807405" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (54) 99980-7405
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Mix de Frango e Legumes</h3>
+                    <span class="dish-description">Prato saudável e vibrante que celebra a união de suculentos pedaços de frango com uma variedade de legumes frescos e coloridos. Perfeito para qualquer refeição, este prato é uma verdadeira explosão de sabores e texturas, trazendo o melhor da horta para a sua mesa.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Torrada Simples</h3>
+                    <span class="dish-description">Clássico do café da manhã e dos lanches, amado por sua simplicidade e versatilidade. Feita a partir de fatias de pão, que podem ser de diversos tipos, como pão de forma, baguete ou pão integral. As fatias são colocadas em uma torradeira ou grelha e tostadas até atingirem uma textura crocante e uma cor dourada uniforme.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Tropical Bliss</h3>
+                    <span class="dish-description">Prato refrescante feito de morango e abacate e colorida que celebra a união de sabores e texturas únicas. Este prato é perfeito para os dias quentes, proporcionando uma experiência gastronômica leve e nutritiva, ideal tanto para um brunch sofisticado quanto para um lanche saudável.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$25,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Bobó de Camarão</h3>
+                    <span class="dish-description">Prato tradicional da culinária brasileira, especialmente popular na Bahia. Esta iguaria é uma combinação cremosa e saborosa que une camarões frescos com uma base rica e aromática de mandioca, leite de coco e dendê. A receita é temperada com cebola, alho, pimentões, tomates e coentro, criando um molho espesso e perfumado.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$45,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>Mariana Mello
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Gostei muito e super indico."</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>Marcia Andrade
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Comida muito bem temperada"</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-default">Ver mais avaliações</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">&copy; 2024</span>
+            <div class="social-media-buttons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
