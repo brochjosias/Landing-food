@@ -12,9 +12,9 @@ Integração de Recursos: Recursos essenciais, como links de navegação e botõ
 
 ## Tecnologias Utilizadas
 
-_JavaScript_
-_HTML_
-_CSS_
+- JavaScript
+- HTML
+- CSS
 
 ## Como Utilizar
 
