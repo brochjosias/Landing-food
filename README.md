@@ -18,7 +18,7 @@ _CSS_
 
 ## Como Utilizar
 
-Faça o download do repositóri e em seu ambiente de desenvolvimento:
+Faça o download do repositório e em seu ambiente de desenvolvimento:
 
 ```bash
 cd landing-page-food
